@@ -19,6 +19,9 @@ from keras.utils import to_categorical
 from seqeval.metrics import (classification_report, f1_score, precision_score, recall_score, accuracy_score)
 import random
 # import text
+#the working directory on my computer is C:\\Users\\Ethan\\Desktop\\Codetest. 
+#And the news_tagged_data.txt and wordvecs.txt files are put under ‘Codetest’ folder
+
 text_dir = 'CodeTest/news_tagged_data.txt'
 word2vec_dir = 'CodeTest/wordvecs.txt'
 with open(text_dir, 'r') as f:
